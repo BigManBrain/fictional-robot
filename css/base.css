@@ -1,36 +1,22 @@
 body {
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    line-height: 1.6em;
 }
 
 h1,
 h2 {
-    color: gray;
+    color: #007E7E
 }
 
 h1 {
-    border-bottom: 1px solid black;
+    font-size: 150%
 }
 
-p {
-    color: maroon;
+h2 {
+    font-size: 120%;
 }
 
-em {
-    font-family: serif;
-}
-
-p.green {
-    color: green;
-}
-
-p.lightblue {
-    color: lightblue;
-}
-
-p.blue {
-    color: blue;
-}
-
-p.red {
-    color: red;
+h3 {
+    font-size: 110%;
 }
