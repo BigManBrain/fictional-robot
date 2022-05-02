@@ -31,16 +31,18 @@ h3 {
     border-style: dashed;
     border-color: #fff;
     border-width: 1px;
-
-    background-color: #a7cece;
-    background-image: url(https://wickedlysmart.com/hfhtmlcss/chapter9/lounge-complete/images/background.gif);
-    background-repeat: no-repeat;
-    background-position: top left;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
 
     padding: 25px;
     padding-left: 80px;
     margin: 30px;
     margin-right: 200px;
+
+    background-color: #a7cece;
+    background-image: url(https://wickedlysmart.com/hfhtmlcss/chapter9/lounge-complete/images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
 }
 
 #weekly {
@@ -48,9 +50,11 @@ h3 {
     border-color: #00cEcE;
     border-width: 2px;
 
+    padding: 25px;
+
     background-image: url(https://wickedlysmart.com/hfhtmlcss/chapter10/lounge-complete/images/cocktail.gif);
     background-repeat: repeat-x;
     background-position: top;
 
-    padding: 25px;
+
 }
