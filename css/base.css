@@ -14,11 +14,10 @@ h1 {
 }
 
 h2 {
-    font-size: 120%;
+    font-size: 130%;
 }
 
 h3 {
-    color: red;
     font-size: 110%;
 }
 
@@ -28,11 +27,8 @@ h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #444;
 
-    border-style: dashed;
-    border-color: #fff;
-    border-width: 1px;
-    border-bottom-right-radius: 1em;
-    border-top-left-radius: 1em;
+    border: 1px dashed #fff;
+    border-radius: 1em 0 1em 0;
 
     padding: 25px;
     padding-left: 80px;
@@ -46,15 +42,55 @@ h3 {
 }
 
 #weekly {
-    border-style: solid;
-    border-color: #00cEcE;
-    border-width: 2px;
+    text-align: center;
+    line-height: 1;
 
-    padding: 25px;
+    border: thin solid #00cEce;
+    width: 15em;
+
+    margin-left: 20px;
+    padding: 0px 20px 20px 20px;
 
     background-image: url(https://wickedlysmart.com/hfhtmlcss/chapter10/lounge-complete/images/cocktail.gif);
     background-repeat: repeat-x;
-    background-position: top;
+}
 
+#weekly h2 {
+    color: black;
+}
 
+#weekly h3 {
+    color: red;
+}
+
+#weekly a:link {
+    color: #007E7E;
+}
+
+#weekly a:visited {
+    color: #005050;
+}
+
+#weekly a:hover,
+#weekly a:focus {
+    color: red;
+}
+
+#weekly a:active {
+    color: blue;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+footer {
+    font-size: 50%;
+    text-align: center;
+    line-height: normal;
+    margin-top: 30px;
 }
